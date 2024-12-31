@@ -1,6 +1,4 @@
 import streamlit as st
-from streamlit import session_state
-
 import functions
 
 todos = functions.get_todos()
